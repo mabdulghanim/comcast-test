@@ -11,6 +11,7 @@ public class Main {
         System.out.println("Enter a city: ");
         String city = reader.next(); // Scans the next token of the input as a String.
         reader.close();
+        System.out.println("The weather conditions for the city of "+city+" are:");
         System.out.println(getHTML("http://api.openweathermap.org/data/2.5/weather?q="+city+"&units=imperial&appid=e35a258f7b800b3fa59bada0598aaf9a"));
     }
     public static String getHTML(String urlToRead) throws Exception {
