@@ -7,9 +7,6 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) throws Exception {
-        //System.out.println(getHTML("https://samples.openweathermap.org/data/2.5/weather?zip=94040,us&appid=b6907d289e10d714a6e88b30761fae22"));
-    //    System.out.println(getHTML("https://api.darksky.net/forecast/01dd46203f644ffc0d6f327082216511/37.8267,-122.4233"));
-     //   System.out.println(getHTML("http://maps.googleapis.com/maps/api/geocode/json?address=chicago"));
         Scanner reader = new Scanner(System.in);  // Reading from System.in
         System.out.println("Enter a city: ");
         String city = reader.next(); // Scans the next token of the input as a String.
